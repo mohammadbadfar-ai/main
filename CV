@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohammad Badfar – Resume</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      color: #333333;
+      background: #ffffff;
+      margin: 20px;
+      line-height: 1.5;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Montserrat', sans-serif;
+      color: #0F4C81;
+      margin-bottom: 4px;
+    }
+
+    h1 { font-size: 2em; }
+    h2 { font-size: 1.5em; margin-top: 1em; }
+    h3 { font-size: 1.2em; margin-top: 0.8em; }
+
+    .contact {
+      color: #666666;
+      font-size: 0.9em;
+    }
+
+    hr {
+      border: none;
+      border-top: 2px solid #0F4C81;
+      margin: 10px 0 20px 0;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .header img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    section { margin-bottom: 20px; }
+
+    ul { margin: 5px 0 10px 20px; }
+    li { margin-bottom: 5px; }
+
+    a { color: #0F4C81; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .figure {
+      text-align: center;
+      margin: 15px 0;
+    }
+
+    .figure img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .figure figcaption {
+      font-size: 0.9em;
+      font-style: italic;
+      margin-top: 5px;
+      color: #666666;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <img src="headshot.png" alt="Mohammad Badfar">
+    <div>
+      <h1>Mohammad Badfar</h1>
+      <h3>Faculty Candidate</h3>
+      <div class="contact">
+        Department of Industrial & Systems Engineering | Wayne State University<br>
+        Email: <a href="mailto:mohammadbadfa@wayne.edu">mohammadbadfa@wayne.edu</a> | Phone: +1 (267) 515-8390<br>
+        Website: <a href="https://mohammadbadfar.com">mohammadbadfar.com</a>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!-- Research Overview -->
+  <section>
+    <h2>Research Overview</h2>
+    <p>My research develops adaptive AI frameworks that overcome key barriers to industrial adoption of condition-based maintenance, including imperfect data, evolving system dynamics, and uncertain ROI. Validated in energy and mobility systems, these methods are broadly applicable to other industrial systems, translating large-scale sensor data into actionable insights that enhance reliability, optimize asset performance, and support data-driven operational decisions.</p>
+
+    <h3>Current Research Focus</h3>
+    <p><strong>ATOM (Attention for Optimizing Maintenance)</strong> marks a milestone in predictive maintenance by leveraging attention mechanisms to unify prediction and optimization within a single deep learning framework. Evaluations on battery degradation datasets show up to 35% cost reductions, establishing ATOM as a robust approach for intelligent, scalable, and robust decision-making.</p>
+
+    <div class="figure">
+      <img src="PtO_vs_ATOM.png" alt="Predict-then-Optimize vs ATOM">
+      <figcaption>A Comparison of Predict-then-Optimize and ATOM for O&M Scheduling</figcaption>
+    </div>
+
+    <p><strong>Robust Predictive Models for Industrial Data:</strong> Combine ensemble learning with degradation-based features to detect preemptive failures in PV inverters and fleet batteries. Validated with industrial partners, the framework shows strong generalizability and practical impact.</p>
+
+    <p><strong>Adaptive AI for Dynamic Operations:</strong> Leverages transfer learning and unsupervised domain adaptation to achieve robust performance on unseen scenarios and asset types, improving estimation accuracy across temperatures and chemistries.</p>
+
+    <h3>Future Research Directions</h3>
+    <ul>
+      <li><strong>Cross-Domain Prognostics:</strong> Develop foundation models that generalize across heterogeneous industrial assets.</li>
+      <li><strong>Contextual Failure Reasoning:</strong> Leverage generative intelligence to integrate operational and environmental context.</li>
+      <li><strong>Autonomous O&M Decision Architectures:</strong> Apply attention-based deep learning and reinforcement learning to optimize maintenance strategies.</li>
+    </ul>
+  </section>
+
+  <!-- Teaching -->
+  <section>
+    <h2>Teaching Philosophy & Experience</h2>
+    <p>My teaching philosophy centers on developing students’ analytical thinking and data-informed decision-making. I aim to cultivate creative, collaborative learners who apply analytical rigor and managerial judgment to solve real-world challenges.</p>
+
+    <h3>Teaching & Instructional Experience</h3>
+    <ul>
+      <li><strong>Instructor – Wayne State University, Detroit, MI</strong> (Fall 2025)<br>IE 4260: Principles of Quality Control</li>
+      <li><strong>Teaching Assistant – Wayne State University</strong> (Winter 2022)<br>IE 6560: Deterministic Optimization</li>
+      <li><strong>Teaching Assistant – Wayne State University</strong> (Winter 2023 & Winter 2024)<br>IE 7860: Intelligent Analytics (Neural Networks & Deep Learning)</li>
+    </ul>
+  </section>
+
+  <!-- Publications -->
+  <section>
+    <h2>Selected Publications</h2>
+    <ol>
+      <li>M. Badfar, M. Yildirim, R.B. Chinnam, <a href="https://www.tandfonline.com/doi/full/10.1080/00207543.2025.2484320">“Novelty detection framework for monitoring connected vehicle systems with imperfect data”</a>, International Journal of Production Research, 2025.</li>
+      <li>M. Badfar, R.B. Chinnam, S. Zhao, F. Qiu, M. Yildirim, <a href="https://www.sciencedirect.com/science/article/abs/pii/S0038092X25003172">“A novel sensor-driven framework for preemptive failure detection in energy systems”</a>, Solar Energy, 2025.</li>
+      <li>M. Badfar, M. Yildirim, R.B. Chinnam, <a href="https://www.sciencedirect.com/science/article/pii/S0378775324017129">“State-of-charge estimation across battery chemistries”</a>, Journal of Power Sources, 2025.</li>
+      <li>M. Badfar, R.B. Chinnam, M. Yildirim, <a href="https://papers.phmsociety.org/index.php/phme/article/view/4012">“Enhancing lithium-ion battery state-of-charge estimation”</a>, PHM Society European Conference, 2024.</li>
+      <li>Other works under review and in progress.</li>
+    </ol>
+  </section>
+
+  <!-- References -->
+  <section>
+    <h2>References</h2>
+    <ul>
+      <li><strong>Dr. Ratna Babu Chinnam</strong> – Professor and Chair, Industrial & Systems Engineering, Wayne State University<br>Email: <a href="mailto:ratna.chinnam@wayne.edu">ratna.chinnam@wayne.edu</a></li>
+      <li><strong>Dr. Murat Yildirim</strong> – Associate Professor, Industrial & Systems Engineering, Wayne State University<br>Email: <a href="mailto:murat@wayne.edu">murat@wayne.edu</a></li>
+      <li><strong>Dr. Nagi Gebraeel</strong> – Professor, Georgia Tech<br>Email: <a href="mailto:nagi.gebraeel@isye.gatech.edu">nagi.gebraeel@isye.gatech.edu</a></li>
+      <li><strong>Dr. Feng Qiu</strong> – Principal Computational Scientist, Argonne National Lab<br>Email: <a href="mailto:fqiu@anl.gov">fqiu@anl.gov</a></li>
+    </ul>
+  </section>
+
+</body>
+</html>
